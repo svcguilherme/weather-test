@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HEyPt/0qK/0=",
+  "success": true,
+  "projectFilePath": "C:\\dev_estudo\\docker_net\\WeatherApi\\WeatherApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

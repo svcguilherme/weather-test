@@ -1,0 +1,33 @@
+services:
+  weather-api:
+    build:
+      context: ./WeatherApi
+      dockerfile: Dockerfile
+    container_name: weather-api
+    ports:
+      - "5050:5050"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    networks:
+      - weather-net
+    restart: unless-stopped
+
+  weather-frontend:
+    build:
+      context: ./WeatherFrontend
+      dockerfile: Dockerfile
+    container_name: weather-frontend
+    ports:
+      - "5051:5051"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - WeatherApi__BaseUrl=http://weather-api:5050
+    depends_on:
+      - weather-api
+    networks:
+      - weather-net
+    restart: unless-stopped
+
+networks:
+  weather-net:
+    driver: bridge

@@ -4,6 +4,8 @@
 
 After building the local images (`weather-api:latest` and `weather-frontend:latest`), tag and push them to Docker Hub:
 
+Replace `SEU_USER` with your Docker Hub username before running the commands.
+
 ```bash
 docker tag weather-api:latest SEU_USER/weather-api:latest
 docker tag weather-frontend:latest SEU_USER/weather-frontend:latest

@@ -1,0 +1,7 @@
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\WeatherFrontend.exe
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\appsettings.Development.json
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\appsettings.json
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\WeatherFrontend.dll
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\WeatherFrontend.runtimeconfig.json
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\WeatherFrontend.pdb
+C:\dev_estudo\docker_net\WeatherFrontend\publish_test\WeatherFrontend.deps.json

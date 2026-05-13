@@ -6,7 +6,7 @@ COPY WeatherFrontend.csproj .
 RUN dotnet restore
 
 COPY . .
-RUN dotnet publish WeatherFrontend.csproj -c Release -o /app/publish --no-restore
+RUN dotnet publish WeatherFrontend.csproj -c Release -o /app/publish
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
